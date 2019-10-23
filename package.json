@@ -1,0 +1,10 @@
+{
+  "name": "gympoint",
+  "version": "0.1.0",
+  "description": "A Gym managing app built with NodeJS",
+  "main": "src/server.js",
+  "repository": "git@github.com:heronsilva/gympoint.git",
+  "author": "Heron Silva <heron.code@outlook.com>",
+  "license": "MIT",
+  "private": true
+}
