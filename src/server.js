@@ -1,3 +1,4 @@
 import app from './app'
+import { basePort } from './config/environment'
 
-app.listen(3000)
+app.listen(basePort)
