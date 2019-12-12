@@ -1,6 +1,6 @@
 import express from 'express'
 
-import routes from './routes'
+import router from './router'
 import './database'
 
 class App {
@@ -16,7 +16,7 @@ class App {
   }
 
   routes() {
-    this.server.use(routes)
+    this.server.use(router)
   }
 }
 
